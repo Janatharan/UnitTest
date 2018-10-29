@@ -46,7 +46,7 @@ namespace UnitTest
         [TestMethod]
         public void TestGetSomeString()
         {
-            const string EXPECTED_STRING = "Hello";
+            const string EXPECTED_STRING = "Hello World";
             Mock<IDependance> myMock = new Mock<IDependance>();
             myMock.Setup(m => m.GiveMeAString()).Returns("Hello World");
             MyClass myobject = new MyClass();
