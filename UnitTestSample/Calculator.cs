@@ -49,4 +49,12 @@ namespace UnitTestSample
     {
         string GiveMeAString();
     }
+
+    public class TestClass
+    {
+        public string TestFun()
+        {
+            return "done";
+        }
+    }
 }
